@@ -1,5 +1,5 @@
 - 👋 Hi, I’m @Nambiramanan
-- 👀 I’m interested in softwarw developer
+- 👀 I’m interested in software developer
 - 🌱 I’m currently learning full stack developer course
 - 📫 if u want reach me send mail to ramanan2810@outlook.com
 
