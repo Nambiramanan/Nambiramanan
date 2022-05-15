@@ -1,0 +1,32 @@
+.Navmargin{
+    margin-left:50px;
+    border-radius: 20px;
+    padding: 10px;
+	border-color: #fff;
+	border-style: solid;
+    height: 40px;
+    width: 100px;
+    font-weight: 600;
+}
+.Navigation{
+    text-align: center;
+}
+#nav1{
+background-color: aqua;
+      }
+#nav2{
+    background-color:rebeccapurple;
+    
+    }
+#nav3{
+        background-color:yellowgreen;
+    }
+#nav4{
+        background-color: rosybrown;
+     }
+#nav5{
+        background-color: mediumaquamarine;
+    }
+#nav6{
+        background-color: red;
+    }

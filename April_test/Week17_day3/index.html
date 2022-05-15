@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Week_17_Day3</title>
+</head>
+<body>
+    <h1>Student Registration form</h1>
+    <form action="index.html">
+    <table>
+        <tbody>
+        <tr>
+            <td><label>First Name:</label></td>
+            <td><input type="text" required maxlength="30" placeholder="Enter the First name"></td>
+        </tr>
+        <tr>
+            <td>Last Name</td>
+        <td><input type="text" required maxlength="30" placeholder="Enter the Last Name"></td>
+        </tr>
+        <tr>
+            <td>Date Of Birth</td>
+        <td><input type="date">
+        </tr>
+        <tr>
+            <td>Email ID</td>
+        <td><input type="text">
+        </tr>
+        <tr>
+            <td>Mobile no</td>
+            <td><input type="text" required  maxlength="10" minlength="10">(Enter 10 digit number)</td>
+        </tr>
+        <tr>
+            <td>Gender</td>
+            <td><input type="radio" id="Male" name="Gender" value="Male" >
+            <label>Male</label>
+            <input type="radio" id="Female" name="Gender" value="Female">
+            <label>Female</label> 
+            <input type="radio" id="Transgender" name="Gender" value="Transgender">
+            <label>Transgender</label>   
+            </td>
+        </tr>
+        <tr>
+            <td>Address</td>
+            <td><textarea name="Address" id="address" cols="30" rows="4"></textarea></td>
+        </tr>
+        <tr>
+            <td>City</td>
+            <td><select>
+            <option value="">select the city</option>
+            <option value="1">Tirunelveli</option>
+            </select></td>
+        </tr>
+        <tr>
+            <td>Pincode</td>
+            <td><input type="text" ></td>
+        </tr>
+        <tr>
+            <td>State</td>
+            <td><input type="text"></td>
+        </tr>
+        <tr>
+            <td>Country</td>
+            <td><input type="text"  ></td>
+        </tr>
+        <tr>
+            <td>Hobbies</td>
+            <td>
+            <input type="checkbox" id="Singing" name="hobbies" value="Singing">Singing
+            <input type="checkbox" id="Dancing" name="hobbies" value="Dancing">Dancing
+            <input type="checkbox" id="Drawing" name="hobbies" value="Drawing">Drawing
+            <input type="checkbox" id="Reading" name="hobbies" value="Reading">Reading<br>
+            <input type="checkbox" id="Others" name="hobbies"   value="Others">Others
+            <input type="text" placeholder="Enter the other hobbies">
+            </td>
+        </tr>
+        <tr>
+            <td><label for="Qualification">Qualification:</label></td>
+            <th>S.NO</th>
+            <th>Examination</th>
+            <th>Board</th>
+            <th>Percentage</th>
+            <th>Year Of passing</th>
+        </tr>
+        <tr>
+            <td></td>
+            <td align="center">1</td>
+            <td align="center">SSLC</td> 
+            <td><input type="Text" maxlength="10"></td>
+            <td><input type="number" step="0.01">
+            <td><input type="Text"></td>
+        </tr>
+    <tr>
+        <td><input type="submit" value="submit"></td>
+    </tr>
+    </form>
+
+    </tbody>
+    </table>
+</body>
+</html>
